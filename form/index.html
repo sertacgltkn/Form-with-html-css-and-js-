@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>WLC...!!!</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <script src="index.js"></script>
+
+</head>
+
+<body>
+
+    <a href="index.html" target="_blank">HomePage</a>
+    <br></br>
+
+    <form action="formatting.html">
+        <label>First Name: </label>
+        <input name="firstName" type="text" required />
+        <br></br>
+        <label>Password:</label>
+        <input name="password" type="password" required />
+        <br></br>
+        <label>Gender: </label>
+        <select name="gender">
+            <option>Erkek</option>
+            <option>Kadın</option>
+            <option>Ne Farkederki</option>
+            <option>Sanane</option>
+        </select>
+
+        <br></br>
+
+        <label>Sitemizi nerden duydunuz?</label>
+        <select name="site" size="5" multiple>
+            <option>Bir arkadaştan</option>
+            <option>Bir arkadaşın arkadaşından</option>
+            <option>Denk geldi</option>
+            <option>Rüyamda gördüm</option>
+            <option>Sanane</option>
+        </select>
+        <br></br>
+
+        <label>Hakkınız hakkında haber vermek ister misiniz?</label>
+        <textarea name="bio" rows="4" cols="30"></textarea>
+        <button onclick="alert('Kaydete basıldı')">Kaydet</button>
+        <input type="submit" value="Gönder" />
+        <br></br>
+        <br></br>
+
+    </form>
+
+    <form action="/action_page.php" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        <input type="number" id="a" name="a" value="50">+
+        <input type="number" id="b" name="b" value="50">
+        =
+        <output name="x" for="a b"></output>
+        <br></br>
+        <input type="submit">
+
+    </form>
+
+    <br></br>
+    <br></br>
+
+    <form action="/action_page.php">Hangi tarayıcıdan giriyorsunuz?
+        <input list="browsers" name="browser">
+        <datalist id="browsers">
+            <option value="İnternet Explorer">
+            <option value="Google Chrome">
+            <option value="Opera">
+            <option value="Edge">
+            <option value="Hesap Makinesi">
+            </option>
+        </datalist>
+        <input type="submit">
+    </form>
+
+    <br></br>
+    <br></br><br></br>
+
+    <header>Some cities</header>
+
+    <nav>
+        <ul>
+            <li>Malatya</li>
+            <li>Ankara</li>
+            <li>Istanbul</li>
+        </ul>
+    </nav>
+
+
+    <table>
+        <caption><b>PERSONEL LIST</b></caption>
+        <tr>
+            <th>Name</th>
+            <th>E-mail</th>
+            <th>Address</th>
+        </tr>
+        <tr>
+            <th>Federico Yugh</th>
+            <th>federic@yugh.com</th>
+            <th><mark>Malatya</mark></th>
+        </tr>
+        <tr>
+            <th>Name Surname</th>
+            <th>namesurname@mail.com</th>
+            <th><mark>Ankara</mark></th>
+        </tr>
+    </table>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+
+    <a href="https://www.instagram.com/sertacgultekinn">Instagram</a>
+
+    <h1 class="title">Any paragraph </h1>
+
+    <article>middle of page</article>
+
+    <p id="currentTime"></p>
+
+</body>
+<footer>Copyright 2022 Tum Haklari Saklidir. &copy;</footer>
+
+</html>
